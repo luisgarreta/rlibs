@@ -1,0 +1,34 @@
+Package: desistimiento
+Title: Predicción de Desistimiento en Excombatientes
+Version: 0.95
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Modelo de predicción de desistimiento de desmovilizados
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+        license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Depends: R (>= 3.6)
+Imports: ggplot2, ggthemes, tidyr, dplyr, openxlsx, caret, ROCR,
+        Metrics
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: alex
+RemoteUsername: luisgarreta
+RemoteRef: HEAD
+RemoteSha: 612ff35b29b2fdd2cea473474f0fee12380346fd
+GithubRepo: alex
+GithubUsername: luisgarreta
+GithubRef: HEAD
+GithubSHA1: 612ff35b29b2fdd2cea473474f0fee12380346fd
+NeedsCompilation: no
+Packaged: 2022-06-24 00:39:26 UTC; root
+Author: First Last [aut, cre] (YOUR-ORCID-ID)
+Maintainer: First Last <first.last@example.com>
+Built: R 4.2.0; ; 2022-06-24 00:39:33 UTC; unix

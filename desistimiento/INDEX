@@ -1,0 +1,48 @@
+ds_analizar_cuantitativas
+                        Analiza variables cuantitativas.
+ds_balancear_varobjetivo
+                        /usr/bin/Rscript Balancear la variable
+                        objetivo.
+ds_binarizar            Binariza la variable objetivo a 1: EXITO y 0:
+                        FRACASO
+ds_cargar_modelo        Carga modelo optimizado previamente entrenado.
+ds_datosFormateados     Retorna y escribe en un archivo los datos
+                        formateados de desistimiento. Estos datos
+                        todavía no están preparados para el análisis
+                        pero ya se pueden leer en R.
+ds_datosPreparados      Retorna y escribe en un archio los datos
+                        preparados de desistimiento. Estos datos ya se
+                        han limpiado y corregido y están listos para
+                        los análisis.
+ds_datos_evaluacion     Crea un archivo para evaluacion del modelo
+ds_distribuciones       Graficar las distribuciones de las variables
+                        cualitativas.
+ds_dividir_datos        Balancear la variable objetivo.
+ds_eliminar_variables   Elimina variables de un conjunto de datos.
+ds_entrenar_modelo      Entrena un modelo de regresión lógica
+ds_evaluar_modelo       Evalúa diferentes métricas a un modelo.
+ds_formula_modelo       Retorna la formula del modelo a ajustar
+                        deacuerdo a los datos de entrada.
+ds_guardar_modelo       Guarda el modelo de predicción en un archivo
+                        "modelo.rds"
+ds_limpiar_observaciones
+                        Elimina observaciones con muy pocos datos en
+                        categorías (0.5% del total de los datos).
+ds_modificar_estructura
+                        Modifica la estructura de los datos
+ds_mostrar_estructura   Imprime y crea un archivo con la estructura
+                        actual de los datos del archivo de entrada
+ds_obtenerDatos         Obtiene los conjuntos de datos
+ds_obtener_estructura   Imprime y crea un archivo con la estructura
+                        actual de los datos del archivo de entrada
+ds_predecir             Predice la variable objetivo "SituacionFinal".
+ds_probar_modelo        Prueba un modelo de regresión lógica.
+ds_procesar_nulos       Muestra y procesa los valores nulos
+ds_procesar_varobjetivo
+                        Procesa la variable objetivo
+ds_resumen_modelo       Balancear la variable objetivo.
+ds_seleccionar_variables
+                        Selecciona las variables más significativas de
+                        un modelo de Regresión Logística.
+ver                     Visualiza rápidamente la estructura de los
+                        datos
